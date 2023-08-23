@@ -2,7 +2,6 @@ package ru.netology.sel.hw;
 
 import com.codeborne.selenide.Condition;
 
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.Keys;
 
