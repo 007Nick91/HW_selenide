@@ -22,7 +22,7 @@ public class TestOrder {
     void shouldRegisterDelivery() {
         open("http://localhost:9999/");
         $("[data-test-id=city] input").setValue("Краснодар");
-        String corectDay = genDate(3, "dd.MM.yyyy");
+        String corectDay = genDate(5, "dd.MM.yyyy");
         $("[data-test-id=date] input").sendKeys(Keys.chord(Keys.SHIFT, Keys.HOME), Keys.DELETE);
         $("[data-test-id=date] input").setValue(corectDay);
         $("[data-test-id=name] input").setValue("Петров Никита");
